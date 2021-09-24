@@ -1,0 +1,7 @@
+    - include_vars: password.yml 
+    - name: run the command
+      mysql_db:
+        name: testdb
+        state: present
+        login_user: root
+        login_password: "{{ password }}"
