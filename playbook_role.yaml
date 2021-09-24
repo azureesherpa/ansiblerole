@@ -1,5 +1,5 @@
 ---
-- hosts: all
+- hosts: sit
 
   roles:
     - { role: mysqldatabase }
